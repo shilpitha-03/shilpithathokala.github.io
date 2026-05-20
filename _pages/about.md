@@ -2,33 +2,35 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: MS student in Robotics at JHU.
 
 profile:
   align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p>Whiting School of Engineering</p>
+    <p>Johns Hopkins University</p>
+    <p>Baltimore, MD</p>
 
-selected_papers: true # includes a list of papers marked as "selected={true}"
+selected_papers: false # ICCA paper not yet indexed on Scholar; re-enable later
 social: true # includes social icons at the bottom of the page
 
 announcements:
-  enabled: true # includes a list of news items
+  enabled: false # news hidden from nav; don't surface on about either
   scrollable: true # adds a vertical scroll bar if there are more than 3 news items
   limit: 5 # leave blank to include all the news in the `_news` folder
 
 latest_posts:
-  enabled: true
+  enabled: false # no real posts yet; re-enable when first post lands
   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](https://www.reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+Hi, I'm Shilpitha — a Robotics MSE student at Johns Hopkins, where I work on perception for embodied systems. I came to JHU after finishing my undergrad in Automation and Robotics Engineering at Amrita, and I'm headed toward research and engineering work in perception and physical AI.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+Most of my work so far has lived at the seam between vision and control. At IIIT Hyderabad I built a vision-based obstacle detection and visual odometry stack for a GPS-denied UAV, learning the hard way how brittle SLAM can be under indoor lighting and motion blur. At IIT Palakkad I benchmarked classical and RL-based planners on a TurtleBot3 in cluttered environments. Along the way I've worked on underwater vehicle-manipulator dynamics, a self-balancing omniwheel robot that made it to the E-Yantra finals, and a paper on VQ-VAE-based trajectory generation for multi-drone coordination (ICCA 2025).
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+What pulls me in is the question of how robots can understand the spaces they move through — not just localize in them, but reason about what's possible, what's reachable, what affords action. That's also what this blog is for: working through ideas in perception and physical AI in writing, partly to make them stick, partly to share what I find.
+
+You can find my CV [here](/cv/), read the blog [here](/blog/), or reach me at <sthokal1@jh.edu>.
