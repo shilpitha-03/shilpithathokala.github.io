@@ -59,3 +59,4 @@ _Format: `date` — `commit subject` — files touched — one-line note. Chrono
 
 - `2026-05-20` — `Tidy CLAUDE.md and add build log section` — `CLAUDE.md` — Removed duplicate `@AGENTS.md` import, set canonical site URL to `shilpithathokala.github.io`, added this Build log section.
 - `2026-05-20` — `Set site identity in _config.yml` — `_config.yml` — Replaced upstream al-folio defaults (`description`, `keywords`, `url`, `baseurl`, `contact_note`) with personal values; left name fields, footer, icon, scholar config untouched (scholar still set to Einstein — fix when re-enabling Publications).
+- `2026-05-20` — `Hide unused sections from navbar` — `_pages/projects.md`, `_pages/publications.md`, `_pages/teaching.md`, `_pages/repositories.md` — Set `nav: false` on four pages to leave only About, CV, Blog in the navbar; news.md already had no `nav:` key, so left untouched.
