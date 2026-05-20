@@ -2,7 +2,7 @@
 
 # Project: Personal portfolio site
 
-Built on al-folio (Jekyll theme), deployed via GitHub Pages at https://shilpithathokala.github.io 
+Built on al-folio (Jekyll theme), deployed via GitHub Pages at https://shilpitha-03.github.io (repo renamed 2026-05-20).
 Inspired by https://rohitbandaru.github.io/ — clean, technical, blog-forward.
 
 ## About me
@@ -62,3 +62,4 @@ _Format: `date` — `commit subject` — files touched — one-line note. Chrono
 - `2026-05-20` — `Hide unused sections from navbar` — `_pages/projects.md`, `_pages/publications.md`, `_pages/teaching.md`, `_pages/repositories.md` — Set `nav: false` on four pages to leave only About, CV, Blog in the navbar; news.md already had no `nav:` key, so left untouched.
 - `2026-05-20` — `Add LinkedIn, GitHub, email, Scholar links` — `_data/socials.yml` — Set personal email, GitHub (`shilpitha-03`), LinkedIn (`shilpitha-chowdary-t03`), and Scholar user ID (`VVR4eaoAAAAJ`); commented out `inspirehep_id` and `custom_social` (Einstein placeholders that would have rendered icons pointing to the wrong profiles).
 - `2026-05-20` — `Add profile photo` — `assets/img/prof_pic.jpg` — Replaced theme's Einstein demo photo with personal square-cropped headshot at the same path so `_pages/about.md`'s default `image: prof_pic.jpg` reference works without further edits.
+- `2026-05-20` — `Update site URL after repo rename to shilpitha-03.github.io` — `_config.yml`, `CLAUDE.md` — Repo renamed on GitHub from `shilpithathokala.github.io` to `shilpitha-03.github.io` to convert from project site (broken assets, ugly URL) to user site at `https://shilpitha-03.github.io/`. Updated `url:` in `_config.yml` and the URL reference at top of CLAUDE.md. Local `.git/config` remote URL also updated via `git remote set-url` (not a tracked change).
