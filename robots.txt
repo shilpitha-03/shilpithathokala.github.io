@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://shilpithathokala.github.io/sitemap.xml
+Sitemap: https://shilpitha-03.github.io/sitemap.xml
