@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://shilpithathokala.github.io/sitemap.xml
