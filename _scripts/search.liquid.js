@@ -78,8 +78,9 @@ ninja.data = [
       },
     {%- endfor -%}
   {%- endif -%}
+  {%- assign search_excluded_collections = "posts,books,news,projects,teachings" | split: "," -%}
   {%- for collection in site.collections -%}
-    {%- if collection.label != 'posts' -%}
+    {%- unless search_excluded_collections contains collection.label -%}
       {%- for item in collection.docs -%}
         {
           {%- if item.inline -%}
@@ -98,7 +99,7 @@ ninja.data = [
           {%- endunless -%}
         },
       {%- endfor -%}
-    {%- endif -%}
+    {%- endunless -%}
   {%- endfor -%}
   {%- if site.socials_in_search -%}
     {%- for social in site.data.socials -%}

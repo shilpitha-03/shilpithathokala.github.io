@@ -6,7 +6,7 @@ email: sthokal1@jh.edu # your school email
 github_username: shilpitha-03 # your GitHub username (URL: github.com/<handle>)
 linkedin_username: shilpitha-chowdary-t03 # LinkedIn URL slug (URL: linkedin.com/in/<slug>)
 # inspirehep_id: 1010907 # disabled — no InspireHEP profile
-rss_icon: false # disabled — no blog posts yet and redundant on about page
+# rss_icon: # disabled in v1; uncomment when you want an RSS icon on about + an entry in Ctrl+K search
 scholar_userid: VVR4eaoAAAAJ # your Google Scholar user ID (the `user=` parameter in your Scholar URL)
 # wechat_qr: # filename of your wechat qr-code saved as an image (e.g., wechat-qr.png if saved to assets/img/wechat-qr.png)
 # whatsapp_number: # your WhatsApp number (full phone number in international format. Omit any zeroes, brackets, or dashes when adding the phone number in international format.)
